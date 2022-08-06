@@ -9,8 +9,8 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:60,
-      strings: ["Developer", "Designer", "Content Creator"],
+      backSpeed: 60,
+      strings: ["Developer", "Designer", "MERN Developer"],
     });
   }, []);
 
@@ -24,9 +24,9 @@ export default function Intro() {
       <div className="right">
         <div className="wrapper">
           <h2>Hi There, I'm</h2>
-          <h1>Safak Kocaoglu</h1>
+          <h1>Ananda Gharami</h1>
           <h3>
-            Freelance <span ref={textRef}></span>
+            Freelancer <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
